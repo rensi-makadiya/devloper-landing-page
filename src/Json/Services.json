@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Web Design & Development",
+    "description": "A website is an extension of your brand and a powerful marketing tool. We design and develop responsive, user-friendly websites that help your business grow in the digital age.",
+    "icon": "code"
+  },
+  {
+    "id": 2,
+    "title": "Mobile App Development",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer",
+    "icon": "mobile"
+  },
+  {
+    "id": 3,
+    "title": "Software Testing Service",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer",
+    "icon": "bug"
+  },
+  {
+    "id": 4,
+    "title": "UI/UX Design",
+   "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer",
+   "icon": "palette"
+  },
+  {
+    "id": 5,
+    "title": "Digital Marketing",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer",
+    "icon": "megaphone"
+  }
+]

@@ -1,0 +1,96 @@
+/* Header base */
+header {
+  height: 79px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  position: relative;
+  background: #fff;
+  width: 100%;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 40px;
+  height: 30px;
+}
+
+.logo-text {
+  font-family: "Great Vibes", cursive;
+  font-size: 20px;
+  letter-spacing: 0.1rem;
+}
+
+/* Nav links */
+.Navlink nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.Navlink li a {
+  text-decoration: none;
+  color: #4a5568;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Navlink li a:hover,
+.Navlink li a.active {
+  color: #57007b;
+}
+
+/* Hamburger icon */
+.menu-icon {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 942px) {
+  header {
+    justify-content: space-between;
+    padding: 0 20px;
+    width: 100%;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .Navlink {
+    position: absolute;
+    top: 79px;
+    left: 50%;
+    height: 100vh;
+    width: 50%;
+    z-index: 1000;
+    background: #fff;
+    display: none;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .Navlink.open {
+    display: block;
+  }
+
+  .Navlink nav ul {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .header-btn {
+    display: none; /* mobile પર hide */
+  }
+}

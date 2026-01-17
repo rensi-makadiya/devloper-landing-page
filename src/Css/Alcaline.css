@@ -1,0 +1,125 @@
+.Alcaline {
+    padding: 80px 20px;
+    background-color: #fff;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.timeline-wrapper {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: 100px auto;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+/* Horizontal line - hidden on mobile */
+.timeline-line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 40px;
+    height: 1px;
+    background: linear-gradient(90deg, #57007B, #F76680);
+    transform: translateY(-50%);
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid rgb(231, 218, 237);
+    transition: 0.3s ease;
+    width: 280px; /* Slightly smaller for better fit */
+}
+
+.card:hover {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+ .trophy {
+        position: relative;
+        right: auto;
+        top: auto;
+        transform: none;
+        left: -2%;
+       
+        
+      }
+
+/* Mobile & Tablet Styles */
+@media (max-width: 1128px) {
+    .timeline-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 50px auto;
+        padding-left: 30px;
+        height: auto; /* Reset height */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .timeline-line {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 2px; /* Vertical line */
+        height: 100%;
+        transform: none;
+        right: auto;
+    }
+
+    .step {
+        position: relative !important; /* Undo absolute positioning */
+        left: 0 !important; /* Undo horizontal offsets */
+        margin-bottom: 40px;
+        width: 100%;
+        bottom: auto !important;
+        top: auto !important;
+    }
+
+    .card {
+        width: 100%; /* Take full width on mobile */
+        max-width: 500px;
+    }
+
+    .line {
+        display: none; /* Hide the vertical connector lines on mobile */
+    }
+
+    .trophy {
+       display: none;
+        
+      }
+}
+
+/* Desktop Only: Connector Lines */
+@media (min-width: 1025px) {
+    
+    .step {
+        position: absolute;
+    }
+    
+    .line {
+        position: absolute;
+        left: 50%;
+        width: 1.5px;
+        height: 40px;
+        background: linear-gradient(180deg, #57007B, #F76680);
+    }
+
+    .step.top { bottom: 55%; margin-bottom: 30px; }
+    .step.top .line { bottom: -70px; }
+
+    .step.bottom { top: 55%; margin-top: 30px; }
+    .step.bottom .line { top: -70px; }
+}

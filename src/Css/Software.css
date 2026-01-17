@@ -1,0 +1,70 @@
+.software {
+  padding: 100px;
+  position: relative;
+}
+
+/* heading */
+.customer-area {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+/* cards stack vertically */
+.software-list {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+/* Card wrapper */
+.software-card {
+  position: relative;
+  overflow: visible;
+}
+
+/* Floating circles */
+.floating-circle {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 768px) {
+  .software {
+    padding: 70px 30px;
+  }
+
+  .software-list {
+    gap: 60px;
+  }
+  .floating-circle {
+    display: none;
+  }
+}
+/* ---------- LAPTOP VIEW ---------- */
+@media (max-width: 1200px) {
+
+  .software {
+    padding: 80px 60px;
+  }
+
+  .customer-area {
+    margin-bottom: 60px;
+  }
+
+  .software-list {
+    gap: 70px;
+  }
+
+  .software-card {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  /* floating circles slightly smaller */
+  .floating-circle {
+    transform: scale(0.9);
+  }
+}
+

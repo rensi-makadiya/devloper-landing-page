@@ -1,0 +1,131 @@
+.services {
+  background-color: #F9F9FF;
+ 
+  padding: 50px 0;
+  border-bottom: solid 2px rgb(231, 218, 237);
+  border-top: solid 2px rgb(231, 218, 237);
+  position: relative;
+}
+
+.services .slider-wrapper {
+  width: 100%;
+}
+ .services .slick-slider{
+  min-height: 60vh;
+  
+}
+ .services .slide-card  {
+  
+  border-radius: 10px;
+ padding: 40px 20px;
+  box-sizing: border-box; 
+}
+ .services .slide-inner {
+  background: #fff;
+  border-radius: 16px;
+  padding: 30px;
+  height: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.2); 
+}
+ .services .img-border {
+  width: 50px;
+  height: 50px;
+  padding: 2px; /* Border thickness */
+  border-radius: 50%;
+  background: linear-gradient(50deg, #7B2869 0%, #C4367D 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services .img-border img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: block;
+  background-color: white;
+
+  
+}
+
+
+/* --- Slick Dots Magic --- */
+
+/* ડોટ્સની આખી લાઇન */
+.custom-dots-container {
+  position: relative !important;
+  bottom: 0 !important;
+  margin-top: 50px;
+  width: 100% !important;
+}
+
+.custom-dots-container ul {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 15px;
+}
+.slick-dots{
+  bottom: -30px;
+}
+.custom-dots-container ul li {
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+  cursor: pointer;
+}
+
+.custom-dots-container ul li button {
+  width: auto !important;
+  height: auto !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  cursor: pointer;
+}
+
+.custom-dots-container ul li button:before {
+  display: none !important;
+}
+
+.custom-dot-item {
+  width: 12px;
+  height: 12px;
+  background-color: #D1D5DB;
+  border-radius: 50%;
+  /* transition: all 0.3s ease; */
+  display: block;
+}
+
+li.slick-active .custom-dot-item {
+  background-color: #F76680;
+  transform: scale(1.4);
+  box-shadow: 0 0 8px rgba(247, 102, 128, 0.4);
+}
+
+li.slick-active .custom-dot-item{
+     background: linear-gradient(90deg, #7B2869 0%, #C4367D 100%);
+    border-radius: 50%;
+}
+
+.slick-slide.slick-current .slide-inner {
+  margin-top: 20px; /* + sign remove */
+  border-radius: 16px;
+
+  background:
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(
+      50deg,
+      #7B2869 0%,
+      #C4367D 100%
+    ) border-box;
+
+  border: 2px solid transparent;
+}
+
+
+

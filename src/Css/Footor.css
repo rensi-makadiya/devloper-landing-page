@@ -1,0 +1,108 @@
+.footor{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 100px 50px 100px;
+    gap:50px;
+    width: 100%;
+    align-items: stretch;
+    border-bottom: 1px solid rgb(203, 213, 224);
+}
+
+
+.footor .logo img {
+    width: 30px;
+    height: 20px;
+}
+
+.footor .logo-text {
+    font-family: 'Great Vibes', cursive;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .1rem;
+}
+.fot1{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 40%;
+}
+.footor img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.footor .img-box{
+    width: 50%;
+}
+
+.fot3{
+    width:30%
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: auto; 
+    gap:10px
+}.fot4 {
+    flex: 1;
+    align-items: flex-end;
+    display: flex;             
+    flex-direction: column; 
+}
+.icon{
+      width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgb(250, 250, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: rgb(26, 32, 44);
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.reversed{
+    padding: 30px;
+    text-align: center;
+}
+
+.FootorText-link{
+margin-bottom: 10px;
+}
+
+
+
+/* --- PERFECT RESPONSIVE (MOBILE) --- */
+@media (max-width: 1024px) {
+    .footor {
+        padding: 30px;
+        gap: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .footor {
+        flex-direction: column; /* ડેસ્કટોપમાં Row, મોબાઈલમાં Column */
+        padding: 40px 20px;
+        text-align: left;
+        align-items: left;
+    }
+
+    .fot1, .fot3, .fot4 {
+        width: 100%; /* મોબાઈલમાં આખી વિડ્થ લેશે */
+    }
+
+    .social {
+        justify-content: left;
+    }
+
+    .fot4 {
+        align-items: left;
+    }
+    
+    .FootorText-link {
+        margin-bottom: 15px;
+    }
+}

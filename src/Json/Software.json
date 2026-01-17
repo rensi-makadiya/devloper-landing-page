@@ -1,0 +1,79 @@
+[
+    {
+        "image": "img/sof1.jpg",
+        "title": "Build the right team to scale",
+        "desc1": "Finding the right talent is not easy. We help you find the talent that suits your needs, follows your processes, and sticks with you long term (not the case with freelancers",
+        "desc2": "Our delivery model helps you cut costs and deliver within budget.",
+        "desc3": "Simform is quick to identify larger problem with the Software so we decided to expand our scope to build new modules",
+        "ceoname": "Jeewa markram",
+        "ceo": "CEO",
+        "layout": "left",
+        "image_ceo":"img/ceo1.png",
+        "circles": [
+            {
+                "size": "35px",
+                "color": "linear-gradient(135deg, #F76680, #57007B)",
+                "bottom": "-3%",
+                "right": "20%"
+            },
+            {
+                "size": "45px",
+                "color": "linear-gradient(135deg, #F7936F, #FFEF5E)",
+                "top": "-5%",
+                "left":"51%"
+                
+                
+            }
+        ]
+    },
+    {
+        "image": "img/sof2.jpg",
+        "title": "Build the right team to scale",
+        "desc1": "Finding the right talent is not easy. We help you find the talent that suits your needs, follows your processes, and sticks with you long term (not the case with freelancers",
+        "desc2": "Our delivery model helps you cut costs and deliver within budget.",
+        "desc3": "Simform is quick to identify larger problem with the Software so we decided to expand our scope to build new modules",
+        "ceoname": "Jeewa markram",
+        "ceo": "CEO",
+        "layout": "right",
+        "image_ceo":"img/ceo2.png",
+        "circles": [
+            {
+                "size": "40px",
+                "color": "linear-gradient(135deg, #F76680, #57007B)",
+                "top": "-4%",
+                "left":"45%"
+            },
+            {
+                "size": "45px",
+                "color": "linear-gradient(135deg, #F7936F, #FFEF5E)",
+                "bottom": "-5%",
+                "left": "10%"
+            }
+        ]
+    },
+    {
+        "image": "img/sof3.jpg",
+        "title": "Build the right team to scale",
+        "desc1": "Finding the right talent is not easy. We help you find the talent that suits your needs, follows your processes, and sticks with you long term (not the case with freelancers",
+        "desc2": "Our delivery model helps you cut costs and deliver within budget.",
+        "desc3": "Simform is quick to identify larger problem with the Software so we decided to expand our scope to build new modules",
+        "ceoname": "Jeewa markram",
+        "ceo": "CEO",
+        "layout": "left",
+        "image_ceo":"img/ceo3.png",
+        "circles": [
+            {
+                "size": "35px",
+                "color": "linear-gradient(135deg, #F76680, #57007B)",
+                "top": "-15px",
+                "right": "20%"
+            },
+            {
+                "size": "45px",
+                "color": "linear-gradient(135deg, #F7936F, #FFEF5E)",
+                "bottom": "-4%",
+                "left":"51%"
+            }
+        ]
+    }
+]

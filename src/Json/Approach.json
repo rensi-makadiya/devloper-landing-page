@@ -1,0 +1,38 @@
+[
+    {
+        "img":"img/app1.png",
+        "title":"UX Driven Engineering",
+        "desc":"Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
+        "color":"linear-gradient(-130deg, #29272E, #27272E)"
+    },
+    {
+        "img":"img/app2.png",
+        "title":"Developing Shared Understanding",
+        "desc":"Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
+        "color":"linear-gradient(-130deg, #68DBF2, #509CF5)"
+    },
+    {
+        "img":"img/app3.png",
+        "title":"Proven Experience and Expertise",
+        "desc":"Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
+        "color":"linear-gradient(-130deg, #FF92AE, #FF3D9A)"
+    },
+    {
+        "img":"img/app4.png",
+        "title":"Security & Intellectual Property (IP)",
+        "desc":"Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
+        "color":"linear-gradient(-130deg, #67E9F1, #24E795)"
+    },
+    {
+        "img":"img/app5.png",
+        "title":"Code Reviews",
+        "desc":"Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
+        "color":"linear-gradient(-130deg, #FFEF5E, #F7936F)"
+    },
+    {
+        "img":"img/app6.png",
+        "title":"Quality Assurance & Testing",
+        "desc":"Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
+        "color":"linear-gradient(-130deg, #F76680, #57007B)"
+    }
+]

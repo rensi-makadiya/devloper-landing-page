@@ -1,0 +1,68 @@
+{
+  "Backend": [
+    { "name": "Node.js", "icon": "/img/node.png" },
+    { "name": "PHP", "icon": "/img/php.png" },
+    { "name": "MySQL", "icon": "/img/mysql.png" },
+    { "name": "Java", "icon": "/img/java.png" },
+    { "name": ".NET", "icon": "/img/dotnet.png" },
+    { "name": "Python", "icon": "/img/python.png" },
+    { "name": "Rails", "icon": "/img/rails.png" },
+    { "name": "Go", "icon": "/img/go.png" },
+    { "name": "MongoDB", "icon": "/img/mongodb.png" }
+  ],
+  "Frontend": [
+     { "name": "Node.js", "icon": "/img/node.png" },
+    { "name": "PHP", "icon": "/img/php.png" },
+     { "name": "MySQL", "icon": "/img/mysql.png" },
+    { "name": "Java", "icon": "/img/java.png" },
+    { "name": ".NET", "icon": "/img/dotnet.png" },
+    { "name": "Python", "icon": "/img/python.png" },
+    { "name": "Rails", "icon": "/img/rails.png" },
+    { "name": "Go", "icon": "/img/go.png" },
+    { "name": "MongoDB", "icon": "/img/mongodb.png" }
+  ],
+  "Databases": [
+  { "name": "Go", "icon": "/img/go.png" },
+    { "name": "MongoDB", "icon": "/img/mongodb.png" },
+    { "name": "MySQL", "icon": "/img/mysql.png" },
+    { "name": "Java", "icon": "/img/java.png" },
+    { "name": ".NET", "icon": "/img/dotnet.png" },
+    { "name": "Python", "icon": "/img/python.png" },
+    { "name": "Rails", "icon": "/img/rails.png" },
+    { "name": "Go", "icon": "/img/go.png" },
+    { "name": "MongoDB", "icon": "/img/mongodb.png" }
+  ],
+  "CMS": [
+  { "name": ".NET", "icon": "/img/dotnet.png" },
+    { "name": "Python", "icon": "/img/python.png" },
+     { "name": "MySQL", "icon": "/img/mysql.png" },
+    { "name": "Java", "icon": "/img/java.png" },
+    { "name": ".NET", "icon": "/img/dotnet.png" },
+    { "name": "Python", "icon": "/img/python.png" },
+    { "name": "Rails", "icon": "/img/rails.png" },
+    { "name": "Go", "icon": "/img/go.png" },
+    { "name": "MongoDB", "icon": "/img/mongodb.png" }
+  ],
+  "CloudTesting": [
+ { "name": "MySQL", "icon": "/img/mysql.png" },
+    { "name": "Java", "icon": "/img/java.png" },
+     { "name": "MySQL", "icon": "/img/mysql.png" },
+    { "name": "Java", "icon": "/img/java.png" },
+    { "name": ".NET", "icon": "/img/dotnet.png" },
+    { "name": "Python", "icon": "/img/python.png" },
+    { "name": "Rails", "icon": "/img/rails.png" },
+    { "name": "Go", "icon": "/img/go.png" },
+    { "name": "MongoDB", "icon": "/img/mongodb.png" }
+  ],
+  "DevOps": [
+     { "name": "Node.js", "icon": "/img/node.png" },
+    { "name": "PHP", "icon": "/img/php.png" },
+     { "name": "MySQL", "icon": "/img/mysql.png" },
+    { "name": "Java", "icon": "/img/java.png" },
+    { "name": ".NET", "icon": "/img/dotnet.png" },
+    { "name": "Python", "icon": "/img/python.png" },
+    { "name": "Rails", "icon": "/img/rails.png" },
+    { "name": "Go", "icon": "/img/go.png" },
+    { "name": "MongoDB", "icon": "/img/mongodb.png" }
+  ]
+}
