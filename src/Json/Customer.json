@@ -2,37 +2,37 @@
   {
     "name": "Imran Khan",
     "job": "Software Engineer",
-    "img": "/img/Customer_1.png",
+    "img": "img/Customer_1.png",
     "review": "Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen."
   },
   {
     "name": "Romena De Silva",
     "job": "Product Designer",
-    "img": "/img/Customer_2.png",
+    "img": "img/Customer_2.png",
     "review": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
   },
   {
     "name": "James Carter",
     "job": "Marketing Manager",
-    "img": "/img/Customer_3.jpg",
+    "img": "img/Customer_3.jpg",
     "review": "The team delivered exceptional results. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s and continues to be a reliable placeholder in design."
   },
   {
     "name": "Sophia Williams",
     "job": "UI/UX Designer",
-    "img": "/img/Customer_4.png",
+    "img": "img/Customer_4.png",
     "review": "Working with this team was a great experience. Lorem Ipsum is simply dummy text of the printing and typesetting industry and helped visualize content perfectly."
   },
   {
     "name": "Daniel Roberts",
     "job": "Project Manager",
-    "img": "/img/Customer_5.png",
+    "img": "img/Customer_5.png",
     "review": "Highly professional and reliable service. Lorem Ipsum has remained the industry’s standard dummy text, providing clarity and consistency in early-stage designs."
   },
   {
     "name": "Daniel Roberts",
     "job": "Project Manager",
-    "img": "/img/Customer_5.png",
+    "img": "img/Customer_5.png",
     "review": "Highly professional and reliable service. Lorem Ipsum has remained the industry’s standard dummy text, providing clarity and consistency in early-stage designs."
   }
 ]

@@ -19,7 +19,8 @@ export const Header = () => {
     <header>
       {/* Logo */}
       <div className="logo">
-        <img src="/img/logo.png" alt="Logo" />
+        <img src="img/logo.png" alt="Logo" />
+
         <div className="logo-text">JK developers</div>
       </div>
 

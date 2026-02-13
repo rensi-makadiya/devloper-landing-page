@@ -71,9 +71,10 @@ export const Customer = () => {
         {customerData.map((item, index) => (
           <div className="nav-item" key={index}>
             <img src={item.img} alt={item.name} />
+            
             <div className="stars">
               {[...Array(5)].map((_, i) => (
-                <img key={i} src="/img/star.png" alt="star" />
+                <img key={i} src="img/star.png" alt="star" />
               ))}
             </div>
             <div className="customer-name">
